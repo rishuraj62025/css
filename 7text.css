@@ -1,0 +1,36 @@
+.font-family { font-family: 'Arial', sans-serif; /* Fallback to sans-serif if Arial is unavailable */ }
+
+.font-size { font-size: 24px; /* Sets the font size to 24 pixels */ }
+
+
+The font-weight property specifies the thickness of the text.
+Common values include normal, bold, bolder, lighter, or numerical values (100 to 900).
+.font-weight { font-weight: bold; /* Makes the text bold */ }
+
+
+The font-style property is used to set the style of the font, such as normal, italic, or oblique.
+.font-style { font-style: italic; /* Makes the text italic */ }
+
+
+The text-transform property controls the capitalization of text. 
+Options include uppercase, lowercase, capitalize, and none.
+.text-transform { text-transform: uppercase; /* Converts all text to uppercase */ }
+
+
+The text-decoration property is used to add decorations like underline, overline, or line-through to text.
+.text-decoration { text-decoration: underline; /* Adds an underline to the text */ }
+
+
+The line-height property specifies the amount of space between lines of text. 
+It can be set using units like px, em, or as a unitless number.
+.line-height { line-height: 1.5; /* Sets the line height to 1.5 times the font size */ }
+
+
+The text-align property sets the horizontal alignment of text. 
+Common values are left, right, center, and justify.
+.text-align { text-align: center; /* Centers the text horizontally */ }
+
+
+The text-shadow property adds shadow to text. 
+You can specify the horizontal and vertical offsets, blur radius, and color.
+.text-shadow { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);}

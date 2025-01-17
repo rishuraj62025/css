@@ -1,0 +1,70 @@
+Background Color
+
+The background-color property sets the background color of an element.
+
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+<head> <meta charset="UTF-8"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>Background Color Example</title> 
+
+<style> 
+.background-color { background-color: lightblue; } 
+</style> </head> 
+
+<body>
+
+ <div class="background-color">This div has a light blue background color.</div> 
+
+</body> 
+
+</html> 
+
+
+<style> .background-image 
+
+{ background-image: url('https://via.placeholder.com/150'); 
+
+background-size: cover; background-position: center; } </style> 
+
+
+<style> .background-position {
+
+    background-image: url('https://via.placeholder.com/150'); 
+   
+   background-position: top right; background-repeat: no-repeat; } </style>
+
+   
+
+   <style> 
+
+.background-size {
+
+ background-image: url('https://via.placeholder.com/150');
+
+ background-size: cover; /* or contain */ background-position: center; } 
+
+</style>
+
+
+
+
+<style> 
+
+.background-repeat { 
+
+background-image: url('https://via.placeholder.com/150');
+
+ background-repeat: repeat-x; /* or repeat, no-repeat, repeat-y */ } </style>
+
+
+
+
+ <style> .background-shorthand { 
+
+    background: url('https://via.placeholder.com/150') no-repeat center center/cover lightgray; } </style> 
+    

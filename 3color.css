@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+<head> <meta charset="UTF-8"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>Named Colors Example</title> 
+
+<style> .named-color { color: blue; background-color: lightgray; } </style>
+
+ </head> 
+
+<body> 
+
+<p class="named-color">This text is blue with a light gray background.</p> 
+
+</body> 
+
+</html> 
+//---------------------------------------------------------
+
+Named Colors
+
+: Simple names like red, blue, green.
+
+Hexadecimal Colors: #RRGGBB
+
+, e.g., #ff6347.
+
+RGB Colors: rgb(R, G, B)
+
+, e.g., rgb(255, 99, 71).
+
+RGBA Colors: rgba(R, G, B, A)
+
+, e.g., rgba(255, 99, 71, 0.8).
+
+HSL Colors: hsl(H, S%, L%)
+
+, e.g., hsl(9, 100%, 64%).
+
+HSLA Colors: hsla(H, S%, L%, A)
+
+, e.g., hsla(9, 100%, 64%, 0.8).
+
+CSS Variables: Custom properties defined with --
+
+, e.g., var(--primary-color).

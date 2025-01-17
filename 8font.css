@@ -1,0 +1,20 @@
+The font-family property specifies the font of the text. You can provide a list of fonts as a fallback.
+.font-family { font-family: 'Georgia', serif; /* Uses Georgia font, with serif as fallback */ }
+
+The font-size property sets the size of the font. You can use various units such as px, em, rem, %, etc.
+.font-size { font-size: 18px; /* Sets the font size to 18 pixels */ }
+
+The font-weight property controls the thickness of the font. You can use keywords like normal, bold, bolder, lighter, or numeric values from 100 to 900.
+.font-weight { font-weight: 700; /* Sets the font weight to bold */ }
+
+The font-style property allows you to set the style of the font, such as normal, italic, or oblique.
+.font-style { font-style: italic; /* Makes the text italic */ }
+
+The font-variant property allows you to specify alternate font forms, such as small-caps.
+{ font-variant: small-caps; /* Displays text in small caps */ }
+
+The font-stretch property allows you to adjust the width of the font. Values include normal, condensed, expanded, etc.
+.font-stretch { font-stretch: expanded; /* Stretches the font */ }
+
+To use custom web fonts, you can include them via @font-face or use services like Google Fonts. Here’s an example using Google Fonts:
+<title>Web Fonts Example</title> <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <style>

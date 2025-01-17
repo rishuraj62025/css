@@ -1,0 +1,32 @@
+<title>Border Width Example</title> 
+
+<style> .border-width { border: 5px solid black; /* 5px wide border */ } </style> 
+
+</head>
+
+ <body> <div class="border-width">This div has a 5px wide border.</div> 
+
+</body> 
+
+
+
+.border-style { border: 2px dashed blue; /* Dashed border */ }
+
+
+
+.border-color { border: 4px solid green; /* Green border */ }
+
+
+
+.border-radius { border: 3px solid red; border-radius: 10px; /* 10px radius for all corners */ }
+
+
+
+
+.border-shorthand { border: 2px solid black; /* 2px solid black border */ }
+
+
+
+
+.border-sides { border-top: 4px solid purple; border-right: 2px dashed orange; 
+    border-bottom: 1px dotted green; border-left: 5px double blue; }

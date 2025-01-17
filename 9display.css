@@ -1,0 +1,49 @@
+1. display: block
+Block-level elements take up the full width available and start on a new line. They stack vertically.
+
+.block { display: block; width: 100%; background-color: lightblue; padding: 10px; margin-bottom: 10px; }
+
+
+2. display: inline
+Inline elements do not start on a new line and only take up as much width as necessary. They stack horizontally.
+
+.inline { display: inline; background-color: lightcoral; padding: 5px; margin-right: 10px; }
+
+
+3. display: inline-block
+Inline-block elements combine the characteristics of block and inline elements. They do not start on a new line but can have width and height set.
+
+4. display: none
+An element with display: none is not displayed at all and does not occupy any space in the layout.
+
+.hidden { display: none; }
+
+5. display: flex
+The flex value enables the Flexbox layout model, which allows for more flexible and efficient layouts.
+
+.container { display: flex; justify-content: space-around; align-items: center; background-color: lightgoldenrodyellow; height: 150px; }
+.item { background-color: lightpink; padding: 10px; width: 100px; text-align: center; }
+// in flex display values are in same :horizontal
+// flex-direction:column;
+
+6. display: grid
+The grid value activates the CSS Grid layout model, allowing for the creation of complex layouts.
+
+.grid-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; background-color: lightgray; padding: 10px; } 
+.grid-item { background-color: lightblue; padding: 20px; text-align: center; }
+
+
+// POSITIONS
+.box{
+    position:fixed/relative/absolute/sticky
+}
+
+// overflow
+.box{
+    overflow:auto/hidden/scroll/visible
+}
+
+// float
+.box{
+    float:left/right
+}

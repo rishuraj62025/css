@@ -1,0 +1,24 @@
+1. Box Model Components
+The box model consists of the following components:
+Content
+: The actual content of the element, such as text or images.
+
+Padding
+: Space between the content and the border. It clears an area around the content inside the border.
+
+Border
+: Surrounds the padding (if any) and content. It can have width, style, and color.
+
+Margin
+: Space outside the border. It clears an area around the element, separating it from other elements.
+
+
+.content-area { width: 200px; height: 100px; background-color: lightblue; }
+
+.padding-example { width: 200px; height: 100px; padding: 20px; background-color: lightcoral; border: 2px solid black; }
+
+.border-example { width: 200px; height: 100px; padding: 20px; border: 5px solid green; background-color: lightgray; }
+
+.margin-example { width: 200px; height: 100px; padding: 20px; border: 2px solid black; margin: 30px; background-color: lightgreen; } 
+
+.box-sizing-example { width: 200px; height: 100px; padding: 20px; border: 10px solid black; box-sizing: border-box; background-color: lightpink; }
