@@ -1,0 +1,59 @@
+.container{
+display:flex;
+flex-direction: row/column/row-reverse/column-reverse;
+justify-content: center/space-around/flex-start/flex-end/space-between;
+text-align:center;
+align-items:/start/end/base-line;
+align-self:center/flex-start/flex-end;
+}
+
+if there are multiple boxes in row and they can't take their actual sizes -flex-wrap
+.box{
+    flex-wrap:wrap;
+    align-content:space-around/flex-start/flex-end/center/space-between;
+    flex-grow:2;
+    flex-shrink:2;
+    flex-basis:200px; // to set the width of box
+}
+
+1. Basic Flex Container
+To use Flexbox, you need to set the display property of a container to flex. 
+This turns the container into a flex container and its children into flex items.
+
+.flex-container { display: flex; background-color: lightgrey; } 
+.flex-item { background-color: lightcoral; padding: 10px; margin: 5px; flex: 1; }
+
+
+4. Flex Flow
+The flex-flow property is a shorthand for flex-direction and flex-wrap
+
+.flex-container { display: flex; flex-flow: row wrap; /* Shorthand for flex-direction and flex-wrap */ background-color: lightgrey; } 
+.flex-item { background-color: lightcoral; padding: 10px; margin: 5px; flex: 1 1 150px; /* Flex-grow, flex-shrink, and flex-basis */ }
+
+5. Justify Content
+The justify-content property aligns flex items along the main axis (horizontal by default). 
+Values include flex-start, center, flex-end, space-between, and space-around.
+
+justify-content: center/space-around/flex-start/flex-end/space-between;
+
+6. Align Items
+The align-items property aligns flex items along the cross axis (vertical by default). Values include stretch, flex-start, center, flex-end, and baseline.
+
+.flex-container { display: flex; align-items: center; /* Align items vertically */ background-color: lightgrey; height: 100px; } 
+.flex-item { background-color: lightcoral; padding: 10px; margin: 5px; }
+
+
+7. Align Content
+The align-content property aligns flex lines within the flex container when there is extra space on the cross axis. 
+Values include flex-start, center, flex-end, space-between, space-around, and stretch.
+
+.flex-container { display: flex; flex-wrap: wrap; align-content: space-between; /* Distributes space between lines */ background-color: lightgrey; height: 200px; } 
+.flex-item { background-color: lightcoral; padding: 10px; margin: 5px; flex: 1 1 150px; /* Flex-grow, flex-shrink, and flex-basis */ }
+
+
+8. Flex Item Properties
+Flex items can also be controlled individually using the flex, flex-grow, flex-shrink, and flex-basis properties.
+
+flex: Shorthand for flex-grow, flex-shrink, and flex-basis.
+
+.flex-item { background-color: lightcoral; padding: 10px; margin: 5px; flex: 2; /* Grow twice as much as other items */ }
